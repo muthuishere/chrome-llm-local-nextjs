@@ -14,7 +14,7 @@ async function getSession(){
     return session
   }catch(e){
     console.log(e)
-    window.alert('Error creating session, AI not enabled.')
+    //window.alert('Error creating session, AI not enabled.')
     throw new Error('Error creating session, AI not enabled.')
   }
 }
